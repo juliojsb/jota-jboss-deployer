@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+"""
+Author        :Julio Sanz
+Website       :www.elarraydejota.com
+Email         :juliojosesb@gmail.com
+Description   :Deploy to remote Server Group (domain mode) using Python Requests library
+License       :GPLv3
+"""
 
 import os
 import sys
