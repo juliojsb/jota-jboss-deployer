@@ -7,7 +7,7 @@ Written in Python 3
 ### Standalone deployment
 The usage is very easy, the script takes 4 arguments. Here is an example:
 ```
-./jota-standalone-deployer.py admin admin01 http://192.168.2.131:9990 /repository/packages/example.war
+./jota-standalone-deployer.py -u admin -p admin01 -d http://192.168.2.131:9990 -pkg /repository/packages/example.war
 ```
 Where:
 
@@ -22,7 +22,7 @@ Once launched, **example.war** should be deployed in the remote standalone Jboss
 
 The script just needs one more argument specifying the target Server Group where you want to deploy the package. Here is an example:
 ```
-./jota-domain-deployer.py admin admin01 http://192.168.2.131:9990 /repository/packages/example.war my-server-group
+./jota-domain-deployer.py -u admin -p admin01 -d http://192.168.2.131:9990 -pkg /repository/packages/example.war -sg my-server-group
 ```
 Where:
 
